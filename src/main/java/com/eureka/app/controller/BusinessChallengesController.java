@@ -114,7 +114,7 @@ public class BusinessChallengesController {
 	        String lname = user.getLname();
 	    	
 	    	Date createdDate = new Date();
-	        SimpleDateFormat formatter = new SimpleDateFormat("dd MMM yyyy");
+	    	SimpleDateFormat formatter = new SimpleDateFormat("dd MMM yyyy HH:mm:ss");
 	        String formattedDate = formatter.format(createdDate);
 	        createdDate = formatter.parse(formattedDate);
 	        
